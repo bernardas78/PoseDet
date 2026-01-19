@@ -12,7 +12,7 @@ input_dir = "imgs"
 out_dir = "imgs_annotated"
 
 # how frequently to analyze ?
-frame_sample_rate_seconds = 0.3
+frame_sample_rate_seconds = 0.2
 
 # for this video, the boundary of basket is >250px; in reality it
 y_threshold = 250
