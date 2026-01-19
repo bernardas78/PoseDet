@@ -3,6 +3,10 @@
 
 Video analysis tool designed to detect and track cashier actions in retail environments. Specifically, it monitors the **cashier's left wrist** and generates an event whenever an item is placed into a basket. This is triggered when the left wrist moves into a predefined "basket area" in the video.
 
+![My image](Thumb.png)
+
+Watch the video (39sec): https://youtube.com/shorts/uhsP46S5K4k
+
 ## Features
 
 - **Video Analysis:** Process video footage of cashiers at checkout counters.
@@ -11,9 +15,6 @@ Video analysis tool designed to detect and track cashier actions in retail envir
 - **Event Generation:** Logs an event each time an item is placed into the basket.
 - **Pose Estimation:** Uses pose detection to track wrist and hand movements.
 
-![My image](Thumb.png)
-
-Watch the video (39sec): https://youtube.com/shorts/uhsP46S5K4k
 
 Technical details:
 - Neural network - YOLOv8n-pose (pre-trained)
