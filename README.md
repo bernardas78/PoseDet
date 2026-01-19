@@ -2,10 +2,9 @@
 ##  For detecting unscanned items
 
 Video analysis tool designed to detect and track cashier actions in retail environments. Specifically, it monitors the **cashier's left wrist** and generates an event whenever an item is placed into a basket. This is triggered when the left wrist moves into a predefined "basket area" in the video.
+Watch the video (39sec): https://youtube.com/shorts/uhsP46S5K4k
 
 ![My image](Thumb.png)
-
-Watch the video (39sec): https://youtube.com/shorts/uhsP46S5K4k
 
 ## Features
 
