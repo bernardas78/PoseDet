@@ -1,7 +1,12 @@
 # Cashier Wrist Tracker
 ##  For detecting unscanned items
 
-Video analysis tool designed to detect and track cashier actions in retail environments. Specifically, it monitors the **cashier's left wrist** and generates an event whenever an item is placed into a basket. This is triggered when the left wrist moves into a predefined "basket area" in the video.
+A common way to steal by cashiers: move unscanned items straight to the basket.
+
+CashierWristTracker uses a **cashier's left wrist** movement to understand when it enters a predefined "basket area", then generates an event.
+
+Example use case: when an item is not scanned, but the system detects that the cashier’s wrist moved into the basket area, CashierWristTracker can trigger an alert for potential theft.
+
 Watch the video (39sec): https://youtube.com/shorts/uhsP46S5K4k
 
 ![My image](Thumb.png)
